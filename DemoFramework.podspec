@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
 
   s.author       = { "Rahul Dhuri" => "rdhuri@athenahealth.com" }
 
-  s.source       = { :git => "https://github.com/rahulDhuri/DemoFramework.git", :tag => "0.0.3" }
+  s.source       = { :git => "https://github.com/rahulDhuri/DemoFramework.git", :tag => s.version }
 
   s.source_files  = "DemoFramework/*.{h,m,swift}"
 

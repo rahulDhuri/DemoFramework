@@ -8,8 +8,8 @@
 
 import Foundation
 
-public class TestFile: NSObject {
-    public func printName(name: String) {
+open class TestFile: NSObject {
+    open func printName(name: String) {
         print("Hello \(name)")
     }
 }
